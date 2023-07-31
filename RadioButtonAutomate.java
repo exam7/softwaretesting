@@ -12,7 +12,7 @@ System.setProperty("webdriver.chrome.driver", "C:\\\\seleniumWebDriver\\\\chrome
 		
 		WebDriver driver = new ChromeDriver();
 		
-		driver.get("file:///C:/Users/harsh/eclipse-workspace/seleniumTest_1/src/seleniumTest_1_package/check_test.html");
+		driver.get("check_test.html");
 	
 		WebElement radio1 = driver.findElement(By.id("radio1"));
 		
